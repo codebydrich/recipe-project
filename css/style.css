@@ -49,6 +49,8 @@ main {
 
 
 .recipe {
+    float: left;
+    padding: 20px;
     width: 500px;
     height: 550px;
     background-color: white;
@@ -69,4 +71,64 @@ main {
 
 .image {
     background-size: cover;
+}
+
+.recipe h2 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0px 20px 0px;
+}
+
+.card .time {
+    margin-bottom: 1px;
+    border: 1px solid #3B3B3B;
+    overflow: hidden;
+}
+
+/*** Time Styles ***/
+.time .prep, .time .cook, .time .total {
+    float: left;
+    padding-left: 6px;
+    width: 33.3333%;
+    box-sizing: border-box;
+}
+
+.time .cook {
+    border-left: 1px solid #3B3B3B;
+    border-right: 1px solid #3B3B3B;
+}
+
+.time img {
+    width: 15px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.time strong {
+    text-transform: uppercase;
+}
+
+.time p {
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 5px 0px;
+}
+
+/****** Column Styles ******/
+.columns {
+    overflow: auto;
+}
+
+.columns .directions {
+    float: left;
+    width: 240px;
+}
+
+.columns .ingredients {
+    float: left;
+    width: 205px;
+    margin-right: 4px;
 }
