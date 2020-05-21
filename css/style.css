@@ -130,12 +130,12 @@ main {
     overflow: auto;
 }
 
-.columns .directions {
+.directions {
     float: left;
     width: 240px;
 }
 
-.columns .ingredients {
+.ingredients {
     float: left;
     width: 205px;
     margin-right: 10px;
