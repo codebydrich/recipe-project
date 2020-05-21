@@ -81,6 +81,14 @@ main {
     margin: 10px 0px 20px 0px;
 }
 
+.recipe h3 {
+    padding: 2px;
+    border-top: 1px solid #3B3B3B;
+    border-bottom: 1px solid #3B3B3B;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 .card .time {
     margin-bottom: 1px;
     border: 1px solid #3B3B3B;
@@ -130,5 +138,14 @@ main {
 .columns .ingredients {
     float: left;
     width: 205px;
-    margin-right: 4px;
+    margin-right: 10px;
+}
+
+.ingredients ul, .directions ol {
+    padding: 15px;
+    line-height: 22px;
+}
+
+.ingredients ul li {
+    list-style: square;
 }
