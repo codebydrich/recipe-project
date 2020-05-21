@@ -34,3 +34,39 @@ main {
     height: 1000px;
     margin: 20px 50px;
 }
+
+/*** Card Styles ***/
+.card {
+    margin: 10px 0px;
+    overflow: auto;
+}
+
+.image {
+    float: left;
+    width: 500px;
+    height: 550px;
+}
+
+
+.recipe {
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+#cookies .image {
+    background-image: url('../img/gluten-free-sugar-cookies.jpg');
+}
+
+#pesto .image {
+    background-image: url('../img/nut-free-pesto.jpg');
+}
+
+#salad .image {
+    background-image: url('../img/watermelon-salad.jpg');
+}
+
+.image {
+    background-size: cover;
+}
