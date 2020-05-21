@@ -1,0 +1,36 @@
+/****** Global Styles ******/
+body {
+    background: #DAF7F6;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 16px;
+}
+
+h1, h2, h3 {
+    color: #F16059;
+}
+
+/****** Header Styles ******/
+header {
+    background-color: white;
+    text-align: center;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header img {
+    margin-right: 10px;
+}
+
+/****** Main Styles ******/
+main {
+    height: 1000px;
+    margin: 20px 50px;
+}
